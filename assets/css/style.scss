@@ -1,8 +1,7 @@
 ---
 ---
 
-{
-  @import "{{ site.theme }}";
+@import "{{ site.theme }}";
 
 body {
   font-family:
@@ -17,7 +16,6 @@ body {
   line-height: 1.6;
   color: rgb(30, 45, 30);
   background-color: rgb(177, 224, 177);
-  
 }
 
 header {
@@ -37,5 +35,4 @@ header {
       }
     }
   }
-}
 }
