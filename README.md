@@ -1,8 +1,25 @@
 # Kappa5400
 
-## ウエブサイトとGithubリンク:
+## アピールポイント
 
+### CSの大学院生で開発経験があり、5年間の業務経験を持つ英語ネイティブです。
+
+自分でWebサイトを2個作った経験があり、CI/CD、DevOps、テストなどの開発手法もある程度わかります。フロントよりバックエンドの方が詳しいです。英語のネイティブです。
+
+## MERNスタック 詰チェスアプリ
+
+ウーザはチェスパズルを遊べると作れるアップ。<br/>
+CRUD、JSONウェブトークン、単体テスト、結合試験、CI/CD
 [https://chesspuzzlekappa54.me/](https://chesspuzzlekappa54.me/) <br/>
+
+## Spring ERMアップリ
+
+会社ERM管理アップ。<br/>
+CRUD、CRON、自動メール、Thymeleaf、Postgres
+[https://chesspuzzlekappa54.me/](https://chesspuzzlekappa54.me/) <br/>
+
+## Github
+
 [https://github.com/Kappa5400/](https://github.com/Kappa5400/)
 
 ## 職務要約
@@ -23,12 +40,6 @@ Web開発者志望のCS修士課程在学中です。Spring BootやMERNスタッ
 
 ゲーム会社、自動部品会社、そして物流会社の広い経験が持つバイリンガル。難しい問題を解決することが好きで麻雀、チェス、ボードゲーム、格闘技ゲー、などなどハマっています。挑戦はとても好きで、一ヶ月間北海道で自転車・キャンプツーリングにいったり体重130キロから85キロ減った経験があります。
 
-## 希望
+# Insert rirekisho and history downloads here
 
-Webサイト開発のプロフェッショナルな経験をもっと積みたいです。現在は個人プロジェクトの経験しかないので、もっときちんとWeb開発を勉強して理解を深めたいと思っています。
-特徴
-自分でWebサイトを2個作った経験があり、CI/CD、DevOps、テストなどの開発手法もある程度わかります。フロントよりバックエンドの方が詳しいです。英語のネイティブです。
-好きな話題
-麻雀、ボードゲーム、チェス、問題解決。
-アピールポイント
-CSの大学院生で開発経験があり、5年間の業務経験を持つ英語ネイティブです。
+# add youtube proj walkthroughs (?)
