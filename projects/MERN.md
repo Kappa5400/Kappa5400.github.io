@@ -4,6 +4,6 @@ title: MERN App
 permalink: /projects/MERN/
 ---
 
-#MERN Project
+<h1>MERN Project</h1>
 
 MERN stack is great.

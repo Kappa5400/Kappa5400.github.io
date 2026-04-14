@@ -4,6 +4,6 @@ title: MERN App
 permalink: /projects/Spring/
 ---
 
-#Spring Project
+<h1>Spring Project</h1>
 
 Spring framework is great.
