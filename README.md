@@ -1,30 +1,8 @@
-# Kappa5400
+# Hello,
 
-## アピールポイント
+## 開発経験２年持つや間業務経験５年持っているCS大学院生英語バイリンガル開発者です。<br/>
 
-### CSの大学院生で開発経験があり、5年間の業務経験を持つ英語ネイティブです。
-
-自分でWebサイトを2個作った経験があり、CI/CD、DevOps、テストなどの開発手法もある程度わかります。フロントよりバックエンドの方が詳しいです。英語のネイティブです。
-
-## MERNスタック 詰チェスアプリ
-
-ウーザはチェスパズルを遊べると作れるアップ。<br/>
-CRUD、JSONウェブトークン、単体テスト、結合試験、CI/CD
-[https://chesspuzzlekappa54.me/](https://chesspuzzlekappa54.me/) <br/>
-
-## Spring ERMアップリ
-
-会社ERM管理アップ。<br/>
-CRUD、CRON、自動メール、Thymeleaf、Postgres
-[https://chesspuzzlekappa54.me/](https://chesspuzzlekappa54.me/) <br/>
-
-## Github
-
-[https://github.com/Kappa5400/](https://github.com/Kappa5400/)
-
-## 職務要約
-
-Web開発者志望のCS修士課程在学中です。Spring BootやMERNスタック（CI/CD、クラウド環境）を用いたWebアプリの開発実績が2件あります。日系企業で5年の経験があり、営業と開発の両面からアプローチできるバイリンガルです。物流・在庫管理の実務に加え、Pythonによる業務自動化プログラムの構築を得意としています。また、Javaを用いたバックエンド開発にも対応可能です。
+### ７月から東京にある開発バイト探す予定にします。申し私に興味があれば遠慮なく連絡してください。
 
 ## テクニカルスキル
 
@@ -36,10 +14,36 @@ Web開発者志望のCS修士課程在学中です。Spring BootやMERNスタッ
 | **SQL**             |   2 年   | Database, PostgreSQL, MySQL, SQLite             |
 | **開発Ops / Cloud** |   2 年   | Docker, Git, GitHub, AWS, CI/CD, クラウド, etc. |
 
+### MERNスタック 詰チェスアプリ
+
+### [https://chesspuzzlekappa54.me/](https://chesspuzzlekappa54.me/) <br/>
+
+ユーザーはチェスパズルを遊べると作れるアップ。<br/>
+MongoDB, Express, React, Node。<br/>
+CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、CI/CD。<br/>
+
+### Spring ERMアップリ
+
+### [https://chesspuzzlekappa54.me/](https://chesspuzzlekappa54.me/) <br/>
+
+会社ERM管理アップ。<br/>
+Springboots, Thymeleaf, Postgres。<br/>
+CRUD、SpringSecurity、CRON、自動メール、MyBatis、単体テスト、結合試験、CI/CD。<br/>
+
+## Github
+
+[https://github.com/Kappa5400/](https://github.com/Kappa5400/)
+
+## 職務要約
+
+CS修士課程在学中Web開発者です。Spring BootやMERNスタック（CI/CD、クラウド環境）を用いたWebアプリの開発実績が2件あります。日系企業で5年の経験があり、営業と開発の両面からアプローチできるバイリンガルです。物流・在庫管理の実務に加え、Pythonによる業務自動化プログラムの構築を得意としています。また、Javaを用いたバックエンド開発にも対応可能です。フロントよりバックエンドの方が詳しいです。
+
 ## 自己紹介
 
 ゲーム会社、自動部品会社、そして物流会社の広い経験が持つバイリンガル。難しい問題を解決することが好きで麻雀、チェス、ボードゲーム、格闘技ゲー、などなどハマっています。挑戦はとても好きで、一ヶ月間北海道で自転車・キャンプツーリングにいったり体重130キロから85キロ減った経験があります。
 
-# Insert rirekisho and history downloads here
+### 連絡先
 
-# add youtube proj walkthroughs (?)
+#### Kappa6708@gmail.com
+
+#### 履歴書・職務経歴書をご希望の方はお気軽にお問い合わせください。

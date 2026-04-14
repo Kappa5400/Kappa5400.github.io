@@ -1,10 +1,8 @@
 - name: Home
   link: /
-- name: MERN App
+- name: MERN アップ　アバウト
   link: /projects/MERN/
-- name: Spring App
+- name: Spring アップ　アバウト
   link: /projects/Spring/
-- name: English MERN App
-  link: /projects/ENG_MERN/
-- name: English Spring App
-  link: /projects/ENG_Spring/
+- name: Github
+  link: https://github.com/Kappa5400
