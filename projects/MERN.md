@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: MERN App
