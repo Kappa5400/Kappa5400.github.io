@@ -22,7 +22,7 @@
 MongoDB, Express, React, Node。<br/>
 CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、CI/CD。<br/>
 
-### Spring ERpアプリ
+### Spring ERPアプリ
 
 ### [https://chesspuzzlekappa54.me/](https://chesspuzzlekappa54.me/) <br/>
 
