@@ -1,5 +1,5 @@
 layout: page
 title: "MERN-PROJECT"
-permalink: /MERN
+permalink: /projects/MERN
 
 MERN stack is great.
