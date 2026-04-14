@@ -1,8 +1,8 @@
-# Hello,
+# 初めまして,
 
 ## 開発経験２年持つや間業務経験５年持っているCS大学院生英語バイリンガル開発者です。<br/>
 
-### ７月から東京にある開発バイト探す予定にします。申し私に興味があれば遠慮なく連絡してください。
+### ７月から東京にある開発バイトを探す予定です。もし私に興味があれば遠慮なく連絡してください。
 
 ## テクニカルスキル
 
@@ -18,16 +18,16 @@
 
 ### [https://chesspuzzlekappa54.me/](https://chesspuzzlekappa54.me/) <br/>
 
-ユーザーはチェスパズルを遊べると作れるアップ。<br/>
+ユーザーはチェスパズルを遊べて作れるアプリ。<br/>
 MongoDB, Express, React, Node。<br/>
 CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、CI/CD。<br/>
 
-### Spring ERMアップリ
+### Spring ERpアプリ
 
 ### [https://chesspuzzlekappa54.me/](https://chesspuzzlekappa54.me/) <br/>
 
-会社ERM管理アップ。<br/>
-Springboots, Thymeleaf, Postgres。<br/>
+会社ERP管理アップ。<br/>
+Spring boot, Thymeleaf, Postgres。<br/>
 CRUD、SpringSecurity、CRON、自動メール、MyBatis、単体テスト、結合試験、CI/CD。<br/>
 
 ## Github

@@ -1,8 +1,8 @@
 - name: Home
   link: /
-- name: MERN アップ　アバウト
+- name: MERN アプリのアバウト
   link: /projects/MERN/
-- name: Spring アップ　アバウト
+- name: Spring アプリのアバウト
   link: /projects/Spring/
 - name: Github
   link: https://github.com/Kappa5400
