@@ -23,7 +23,7 @@
 {"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Test"},"description":"Bookmark this to keep an eye on my project updates!","headline":"MERN App","url":"http://0.0.0.0:4000/projects/MERN/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=4e2ad8f38be16ac24f2c414a71836e7e77a99e24">
+    <link rel="stylesheet" href="/assets/css/style.css?v=70cca73feacaac6f338541ac382503e98c6f3712">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -66,15 +66,179 @@
                 </a>
                 </li>
             
+                <li style="margin-bottom: 10px;">
+                <a href="/projects/ENG_MERN/" style="font-weight: bold; text-decoration: none;">
+                    English MERN App
+                </a>
+                </li>
+            
+                <li style="margin-bottom: 10px;">
+                <a href="/projects/ENG_Spring/" style="font-weight: bold; text-decoration: none;">
+                    English Spring App
+                </a>
+                </li>
+            
             </ul>
         </nav>
         </header>
         
       <section>
 
-      <h1>MERN Project</h1>
+      <h1 id="mernスタック-チェスアプリ-概要">MERNスタック チェスアプリ 概要</h1>
 
-<p>MERN stack is great.</p>
+<h2 id="リンク">リンク:</h2>
+
+<p><a href="https://chesspuzzlekappa54.me/">https://chesspuzzlekappa54.me/</a></p>
+
+<h2 id="githubリンク">Githubリンク:</h2>
+
+<p><a href="https://github.com/Kappa5400/mern_chess">https://github.com/Kappa5400/mern_chess</a></p>
+
+<h2 id="イントロダクション">イントロダクション</h2>
+
+<p>本プロジェクトは、Digital Oceanにデプロイされたチェスアプリのリポジトリです。UIの構築だけでなく、実用的なCI/CDパイプラインを構築している点が特徴です。</p>
+
+<p>GitHubへプッシュするたびに、コードのテストと静的解析（Lint）が自動実行され、フロントエンドとバックエンドのDockerイメージが生成されます。その後、サーバー側のセルフホスト型GitHub Runnerがイメージをプルし、デプロイまでを自動で行います。</p>
+
+<p>テストに関しては、サービスレイヤーの各ユニットテスト（正常系・異常系）および全APIエンドポイントの結合テストを実装しています。</p>
+
+<p><strong>主な機能：</strong></p>
+
+<ul>
+  <li>アカウント作成・ログイン</li>
+  <li>Lichess APIからのデイリーパズル自動取得と保存</li>
+  <li>直近10件のパズル表示</li>
+  <li>スコアシステム（ログイン中に解決でポイント付与）</li>
+  <li>ランキング表示</li>
+  <li>ユーザー独自のパズル作成・閲覧・削除</li>
+</ul>
+
+<p>このアプリは、私のソフトウェアエンジニアとしてのスキルを証明するために開発しました。詳細は以下の通りです。</p>
+
+<hr />
+
+<h2 id="プロジェクト詳細システムアーキテクチャ">プロジェクト詳細：システムアーキテクチャ</h2>
+
+<p>本アプリは、フロントエンドとバックエンドを完全に分離したクライアント・サーバーアーキテクチャで構築されています。</p>
+
+<p>バックエンドにはMongoDBを採用し、サービスレイヤーとルーティングレイヤーで構成されています。また、データバリデーションや認証のためのミドルウェア、テスト環境、ロギングユーティリティ、自動スクリプトを含んでいます。</p>
+
+<p>フロントエンドからはReact Hooksまたはコンポーネント経由でAPIハンドラー層にアクセスします。また、認証コンテキストを使用してトークン管理を行っています。</p>
+
+<h3 id="使用パッケージ">使用パッケージ</h3>
+
+<ul>
+  <li><strong>セキュリティ:</strong> <code class="language-plaintext highlighter-rouge">bcrypt</code>, <code class="language-plaintext highlighter-rouge">express-jwt</code>, <code class="language-plaintext highlighter-rouge">express-mongo-sanitize</code>, <code class="language-plaintext highlighter-rouge">joi</code>, <code class="language-plaintext highlighter-rouge">helmet</code>, <code class="language-plaintext highlighter-rouge">jsonwebtoken</code></li>
+  <li><strong>ユーティリティ:</strong> <code class="language-plaintext highlighter-rouge">axios</code>, <code class="language-plaintext highlighter-rouge">dotenv</code>, <code class="language-plaintext highlighter-rouge">compression</code>, <code class="language-plaintext highlighter-rouge">cors</code>, <code class="language-plaintext highlighter-rouge">cron</code>, <code class="language-plaintext highlighter-rouge">mongoose</code>, <code class="language-plaintext highlighter-rouge">morgan</code>, <code class="language-plaintext highlighter-rouge">winston</code>, <code class="language-plaintext highlighter-rouge">swagger</code>, <code class="language-plaintext highlighter-rouge">eslint</code>, <code class="language-plaintext highlighter-rouge">cross-env</code></li>
+  <li><strong>テスト:</strong> <code class="language-plaintext highlighter-rouge">jest</code>, <code class="language-plaintext highlighter-rouge">mongodb-memory-server</code>, <code class="language-plaintext highlighter-rouge">supertest</code></li>
+  <li><strong>フロントエンド:</strong> <code class="language-plaintext highlighter-rouge">React</code>, <code class="language-plaintext highlighter-rouge">Vite</code>, <code class="language-plaintext highlighter-rouge">Chess.js</code>, <code class="language-plaintext highlighter-rouge">react-chessboard</code>, <code class="language-plaintext highlighter-rouge">tanstack</code>, <code class="language-plaintext highlighter-rouge">jwt-decode</code>, <code class="language-plaintext highlighter-rouge">react-router-dom</code></li>
+</ul>
+
+<h3 id="パッケージ解説">パッケージ解説</h3>
+
+<h4 id="セキュリティ">セキュリティ</h4>
+
+<ul>
+  <li><strong>bcrypt:</strong> パスワードを暗号化（ハッシュ化）するためのパッケージ。</li>
+  <li><strong>express-jwt / express-mongo-sanitize:</strong> MongoDBへの注入攻撃（インジェクション）を防ぐミッドウェア。</li>
+  <li><strong>joi:</strong> 入力データのバリデーション用ミドルウェア。</li>
+  <li><strong>helmet:</strong> HTTPヘッダーを設定し、セキュリティを強化するミドルウェア。</li>
+  <li><strong>jsonwebtoken:</strong> セッション認証用のJSON Web Token。</li>
+</ul>
+
+<h4 id="ユーティリティ">ユーティリティ</h4>
+
+<ul>
+  <li><strong>axios:</strong> LichessのパズルAPIへHTTP GETリクエストを送るために使用。</li>
+  <li><strong>compression:</strong> HTTPレスポンスを圧縮し、パフォーマンスを向上。</li>
+  <li><strong>cors:</strong> クロスオリジンリソース共有を設定し、フロントエンドからAPIへのアクセスを許可。</li>
+  <li><strong>cron:</strong> Lichessパズルを自動取得するためのスクリプト実行に使用。パズル更新が不定期なため、1日2回（朝・晩）チェックを行い、重複がない場合のみDBに保存します。（実行パス: <code class="language-plaintext highlighter-rouge">chess/backend/src/service/jobs</code>）</li>
+  <li><strong>mongoose:</strong> MongoDB操作のためのODM（Object Data Modeling）。</li>
+  <li><strong>morgan / winston:</strong> HTTPリクエストのログ出力およびシステムログの管理。</li>
+  <li><strong>swagger:</strong> APIドキュメントの自動生成。</li>
+  <li><strong>eslint:</strong> JavaScriptコードの品質管理（リンター）。</li>
+  <li><strong>cross-env:</strong> 環境変数をOSに依存せず設定するためのツール。</li>
+</ul>
+
+<h4 id="テスト">テスト</h4>
+
+<ul>
+  <li><strong>Jest:</strong> ユニットテストおよび結合テストに使用したテストフレームワーク。</li>
+  <li><strong>mongodb-memory-server:</strong> テスト時に実DBを汚さないよう、メモリ上で動作するDBをモックとして使用。</li>
+  <li><strong>supertest:</strong> APIの結合テストおよびE2Eテスト用のパッケージ。</li>
+</ul>
+
+<h4 id="フロントエンド">フロントエンド</h4>
+
+<ul>
+  <li><strong>React / Vite:</strong> フロントエンドフレームワークおよびビルドツール。</li>
+  <li><strong>Chess.js:</strong> チェスのゲームロジック（ルール判定など）を制御。</li>
+  <li><strong>react-chessboard:</strong> 盤面をUIに表示するコンポーネント。Chess.jsと連携して動作。</li>
+  <li><strong>tanstack (React Query):</strong> 非同期データの取得・キャッシュ・同期を管理。</li>
+  <li><strong>jwt-decode:</strong> バックエンドで生成されたJWTをデコードし、セッションの有効性を確認。</li>
+  <li><strong>react-router-dom:</strong> React内での画面遷移（ルーティング）を管理。</li>
+</ul>
+
+<hr />
+
+<h3 id="ファイル構成">ファイル構成</h3>
+
+<h4 id="バックエンド">バックエンド</h4>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mern_chess/chess/src/
+├── __tests__/      # ユニットテストおよび結合テスト
+├── db/             # DB初期化スクリプトとモデル定義
+├── middleware/     # joiバリデーションとJWT認証
+├── routes/         # ルーティングロジック
+├── service/        # ビジネスロジック
+│   └── jobs/       # cronジョブスクリプト
+├── swagger/        # Swagger API定義ファイル
+├── tests/          # テストのセットアップおよび破棄設定
+├── utils/          # Winstonロギング設定
+├── app.js          # エントリーポイント
+└── server.js       # サーバー設定
+
+フロントエンド
+```text
+mern_chess/chess/frontend/src/
+├── api/            # API通信の定義
+├── components/     # Reactコンポーネント
+├── contexts/       # 認証などのコンテキスト
+├── hooks/          # API呼び出し等のカスタムフック
+├── pages/          # ページテンプレート
+├── App.jsx         # ルーティング設定
+└── main.jsx        # エントリーポイント
+</code></pre></div></div>
+
+<h3 id="バックエンド詳細">バックエンド詳細</h3>
+
+<p>バックエンドは「DBモデル ⇄ サービス ⇄ ルート」の標準的なパターンに従い、バリデーションとロギングのミドルウェアを組み込んでいます。ロジックは、ユーザー認証、パズル取得、ユーザー作成パズルの3つに分割して管理。</p>
+
+<h3 id="ユーザー作成パズルについてはcrud機能を備えており認証済みユーザーは自身のパズルの作成削除が可能です閲覧は未認証でも可能dbサイズを適切に保つため古いパズルを自動削除する仕組みも導入しています">ユーザー作成パズルについてはCRUD機能を備えており、認証済みユーザーは自身のパズルの作成・削除が可能です（閲覧は未認証でも可能）。DBサイズを適切に保つため、古いパズルを自動削除する仕組みも導入しています。</h3>
+
+<h3 id="セキュリティ-1">セキュリティ</h3>
+
+<p>JWTを用いてセッション中のトークンを追跡し、認証が必要なアクションを制御しています。パスワードはDB保存前にハッシュ化。ユーザーからの入力はすべてサニタイズ（無害化）され、joiスキーマによって型と形式が厳密に検証されます。Webサイトとして期待される標準的なセキュリティ対策を実装しています。</p>
+
+<h3 id="フロントエンド詳細">フロントエンド詳細</h3>
+
+<p>Reactのコンポーネントベースの構造を採用し、「Pages ⇄ Components ⇄ Hooks ⇄ API」という明確なデータフローを構築しました。</p>
+
+<p>チェスのロジックにはChess.jsとreact-chessboardを使用していますが、パズル作成時の位置情報入力などの独自ロジックは自前で実装しています。ログイン状態に応じた動的なUI変更（作成ボタンの表示・非表示など）や、スコアボード表示機能を備えています。</p>
+
+<h2 id="テストcicdデプロイ">テスト、CI/CD、デプロイ</h2>
+
+<h3 id="テスト-1">テスト</h3>
+
+<p>Jestを用いてユニットテストと結合テストを実施しています。ビジネスロジックの各関数に対して正常・異常の両パターンをテストし、APIエンドポイントが正しくデータを送受信できることを保証しています。これにより、コード変更時のデグレ（不具合の再発）を最小限に抑えています。</p>
+
+<h3 id="cicd">CI/CD</h3>
+
+<p>GitHub Actionsを利用し、プッシュごとに自動テストとリントを実行。テスト通過後にDockerイメージをビルドし、サーバー側のGitHub Runner経由で自動デプロイされるパイプラインを構築しました。この一連の流れにより、摩擦のない継続的デリバリー（Frictionless CI/CD）を実現しています。</p>
+
+<h3 id="デプロイ">デプロイ</h3>
+
+<p>Digital OceanのDroplet上でホスト。CloudflareによるIP秘匿化とDigital Oceanのファイアウォールを組み合わせることで、外部攻撃（DDoS等）から保護された安全な環境を構築しています。</p>
 
 
       </section>
