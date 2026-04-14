@@ -1,7 +1,10 @@
-@import "{{ site.theme }}";
+---
+---
+
+{
+  @import "{{ site.theme }}";
 
 body {
-  // 文字の読みやすさを改善（Pretty English）
   font-family:
     "Inter",
     -apple-system,
@@ -12,11 +15,12 @@ body {
     Arial,
     sans-serif;
   line-height: 1.6;
-  color: oklch(0.2 0.02 250); // モダンなカラーモデル
+  color: rgb(30, 45, 30);
+  background-color: rgb(177, 224, 177);
+  
 }
 
 header {
-  // サイドバーのリンクを目立たせる
   nav ul {
     list-style: none;
     padding: 0;
@@ -33,4 +37,5 @@ header {
       }
     }
   }
+}
 }
