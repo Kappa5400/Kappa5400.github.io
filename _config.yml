@@ -4,4 +4,5 @@ title: Kappa5400's homepage
 description: CS大学院生英語バイリンガル開発者
 author: Test
 locale: ja-JP
-baseurl: "/Kappa5400.github.io"
+baseurl: ""
+url: "https://kappa5400.github.io"
