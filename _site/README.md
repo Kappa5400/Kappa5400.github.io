@@ -1,8 +1,9 @@
 # 初めまして,
 
-## 開発経験２年持つや間業務経験５年持っているCS大学院生英語バイリンガル開発者です。<br/>
-
-### ７月から東京にある開発バイトを探す予定です。もし私に興味があれば遠慮なく連絡してください。
+開発経験２年持つや間業務経験５年持っているCS大学院生英語バイリンガル開発者です。<br/>
+{: style="font-size: 1.2rem;"}
+７月から東京にある開発バイトを探す予定です。もし私に興味があれば遠慮なく連絡してください。
+{: style="font-size: 1.5rem; color: #1e6e86;"}
 
 ## テクニカルスキル
 
@@ -24,7 +25,7 @@ CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、C
 
 ### Spring ERPアプリ
 
-### [https://chesspuzzlekappa54.me/](https://chesspuzzlekappa54.me/) <br/>
+### [https://itemhealtherm.tech/](https://itemhealtherm.tech/) <br/>
 
 会社ERP管理アップ。<br/>
 Spring boot, Thymeleaf, Postgres。<br/>
@@ -42,8 +43,9 @@ CS修士課程在学中Web開発者です。Spring BootやMERNスタック（CI/
 
 ゲーム会社、自動部品会社、そして物流会社の広い経験が持つバイリンガル。難しい問題を解決することが好きで麻雀、チェス、ボードゲーム、格闘技ゲー、などなどハマっています。挑戦はとても好きで、一ヶ月間北海道で自転車・キャンプツーリングにいったり体重130キロから85キロ減った経験があります。
 
-### 連絡先
+## 連絡先
 
-#### Kappa6708@gmail.com
-
-#### 履歴書・職務経歴書をご希望の方はお気軽にお問い合わせください。
+kappa540000@gmail.com
+{: style="font-size: 1.3rem;"}
+履歴書・職務経歴書をご希望の方はお気軽にお問い合わせください。
+{: style="font-size: 1.3rem; color: #1e6e86;"}
