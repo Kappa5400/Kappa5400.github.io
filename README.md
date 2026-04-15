@@ -20,16 +20,16 @@
 ### [https://chesspuzzlekappa54.me/](https://chesspuzzlekappa54.me/) <br/>
 
 ユーザーはチェスパズルを遊べて作れるアプリ。<br/>
-MongoDB, Express, React, Node。<br/>
-CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、CI/CD。<br/>
+MongoDB, Express, React, Node｡<br/>
+CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、CI/CD｡<br/>
 
 ### Spring ERPアプリ
 
 ### [https://itemhealtherm.tech/](https://itemhealtherm.tech/) <br/>
 
 会社ERP管理アップ。<br/>
-Spring boot, Thymeleaf, Postgres。<br/>
-CRUD、SpringSecurity、CRON、自動メール、MyBatis、単体テスト、結合試験、CI/CD。<br/>
+Spring boot, Thymeleaf, Postgres｡<br/>
+CRUD、SpringSecurity、CRON、自動メール、MyBatis、単体テスト、結合試験、CI/CD｡<br/>
 
 ## Github
 
