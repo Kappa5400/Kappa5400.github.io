@@ -22,6 +22,12 @@ Testing includes unit testing of both expected failures and expected success of 
 
 For logged in users it supports puzzle creation, viewing, and deleation. You can browse and play through all saved user puzzles. The purpose of this app is to showcase my software engineering abilities. As such, I will go through a more detailed overview below.
 
+Database Design
+<img src=assets/css/img/DB_arc.png alt="DB Architecture"/>
+<br/>
+System Design
+<img src=assets/css/img/Mern_arc alt="System Architecture"/>
+
 ## Project Walkthrough System Architecture
 
 The webapp is built with a client-server architecture, where as the backend is seperate from the frontend. The backend contains the database, mongodb in this case, the service layer, and the routing layer. It also contains some middleware for data validation and authentication, unit and integration testing, logging utlities, and a simple job script.
