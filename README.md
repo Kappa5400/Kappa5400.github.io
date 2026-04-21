@@ -1,6 +1,6 @@
 # 初めまして,
 
-開発経験２年持つや間業務経験５年持っているCS大学院生英語バイリンガル開発者です。<br/>
+開発経験2年、業務経験5年を持つCS大学院生英語バイリンガル開発者です。<br/>
 {: style="font-size: 1.2rem;"}
 7月から12月まで東京の語学学校に通います。学業と並行して開発のアルバイトをしたいと考えており、2027年1月からの正社員登用を見据えたポジションを探しています。私のプロフィールにご関心をお持ちいただけましたら、ぜひお気軽にご連絡ください。
 {: style="font-size: 1.3rem; color: #1e6e86;"}
@@ -27,7 +27,7 @@ CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、C
 
 ### [https://itemhealtherm.tech/](https://itemhealtherm.tech/) <br/>
 <img src="{{ '/assets/css/img/ERM.jpeg' | relative_url }}" alt="Item Health App Screenshot" style="width: 80%; height: auto;"><br/>
-会社ERP管理アップ。<br/>
+会社ERP管理アプリ。<br/>
 Spring boot, Thymeleaf, Postgres｡<br/>
 CRUD、SpringSecurity、CRON、自動メール、MyBatis、単体テスト、結合試験、CI/CD｡<br/>
 
