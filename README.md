@@ -23,6 +23,12 @@
 MongoDB, Express, React, Node｡<br/>
 CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、CI/CD｡<br/>
 
+データベース<br/>
+<img src="{{ '/assets/css/img/DB_arc.jpg' | relative_url }}" alt="DB Architecture" style="width: 200%; height: auto;"/>
+<br/>
+体系<br/>
+<img src="{{ '/assets/css/img/Mern_arc.jpg' | relative_url }}" alt="System Architecture" style="width: 200%; height: auto;"/>
+<br/>
 ### Spring ERPアプリ
 
 ### [https://itemhealtherm.tech/](https://itemhealtherm.tech/) <br/>
