@@ -26,8 +26,8 @@ CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、C
 ### Spring ERPアプリ
 
 ### [https://itemhealtherm.tech/](https://itemhealtherm.tech/) <br/>
-<img src="{{ '/assets/css/img/ERM.jpeg' | relative_url }}" alt="Item Health App Screenshot" style="width: 80%; height: auto;"><br/>
-会社ERP管理アプリ。<br/>
+
+会社ERP管理アップ。<br/>
 Spring boot, Thymeleaf, Postgres｡<br/>
 CRUD、SpringSecurity、CRON、自動メール、MyBatis、単体テスト、結合試験、CI/CD｡<br/>
 
@@ -41,7 +41,7 @@ CS修士課程在学中Web開発者です。Spring BootやMERNスタック（CI/
 
 ## 自己紹介
 
-ゲーム会社、自動部品会社、そして物流会社の広い経験が持つバイリンガル。難しい問題を解決することが好きで麻雀、チェス、ボードゲーム、格闘技ゲー、などなどハマっています。挑戦はとても好きで、一ヶ月間北海道で自転車・キャンプツーリングにいったり体重130キロから85キロ減った経験があります。
+ゲーム会社、自動部品会社、そして物流会社の広い経験が持つバイリンガル。難しい問題を解決することが好きで麻雀、チェス、ボードゲーム、格闘技ゲー、などなどハマっています。挑戦はとても好きで、一ヶ月間北海道で自転車・キャンプツーリングにいったりしました。大学生の時体重130キロから85キロに減りました。
 
 ## 連絡先
 
