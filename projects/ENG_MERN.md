@@ -22,11 +22,11 @@ Testing includes unit testing of both expected failures and expected success of 
 
 For logged in users it supports puzzle creation, viewing, and deleation. You can browse and play through all saved user puzzles. The purpose of this app is to showcase my software engineering abilities. As such, I will go through a more detailed overview below.
 
-Database Design
-<img src=assets/css/img/DB_arc.png alt="DB Architecture"/>
+Database Design<br/>
+<img src="assets/css/img/DB_arc.png" alt="DB Architecture"/>
 <br/>
-System Design
-<img src=assets/css/img/Mern_arc alt="System Architecture"/>
+System Design<br/>
+<img src="assets/css/img/Mern_arc.png" alt="System Architecture"/>
 
 ## Project Walkthrough System Architecture
 
