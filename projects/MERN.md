@@ -34,10 +34,10 @@ GitHubへプッシュするたびに、コードのテストと静的解析（Li
 このアプリは、私のソフトウェアエンジニアとしてのスキルを証明するために開発しました。詳細は以下の通りです。
 
 データベース<br/>
-<img src="{{ '/assets/css/img/DB_arc.jpg' | relative_url }}" alt="DB Architecture"/>
+<img src="{{ '/assets/css/img/DB_arc.jpg' | relative_url }}" alt="DB Architecture" style="width: 80%; height: auto;"/>
 <br/>
 体系<br/>
-<img src="{{ '/assets/css/img/Mern_arc.jpg' | relative_url }}" alt="System Architecture"/>
+<img src="{{ '/assets/css/img/Mern_arc.jpg' | relative_url }}" alt="System Architecture" style="width: 80%; height: auto;"/>
 
 
 
