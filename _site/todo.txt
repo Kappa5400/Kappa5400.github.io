@@ -1,8 +1,0 @@
-Insert rirekisho and history downloads 
-add youtube proj walkthroughs (?)
-Spring documentation add
-add mern stack diagrams and such
-update css
-
-make spring links live
-

@@ -18,7 +18,7 @@
 ### MERNスタック 詰チェスアプリ
 
 ### [https://chesspuzzlekappa54.me/](https://chesspuzzlekappa54.me/) <br/>
-<img src="{{ '/assets/css/img/Chess.jpg' | relative_url }}" alt="Chess App Screenshot" style="max-width: 800 px; width: 100%; height: auto;"><br/>
+<img src="{{ '/assets/css/img/Chess.jpg' | relative_url }}" alt="Chess App Screenshot" style="max-width: 800px; width: 100%; height: auto;"><br/>
 ユーザーはチェスパズルを遊べて作れるアプリ。<br/>
 MongoDB, Express, React, Node｡<br/>
 CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、CI/CD｡<br/>
