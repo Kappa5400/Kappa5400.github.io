@@ -19,16 +19,7 @@ body {
 
 /* --- 2. Image Logic: Auto-Breakout --- */
 /* This makes images wider than the text without needing a class */
-img {
-  display: block;
-  max-width: none;        /* Overrides theme restriction */
-  width: 110%;            /* Pushes slightly outside text width */
-  margin-left: -5%;       /* Centers the overflow */
-  height: auto;
-  border-radius: 4px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
+
 
 /* --- 3. Sticky Mobile Navigation --- */
 @media screen and (max-width: 640px) {
