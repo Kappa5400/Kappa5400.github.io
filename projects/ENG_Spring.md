@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MERN App
+title: Spring App
 permalink: /projects/ENG_Spring/
 ---
 
