@@ -23,17 +23,30 @@
 MongoDB, Express, React, Node｡<br/>
 CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、CI/CD｡<br/>
 
-データベース<br/>
-<img src="{{ '/assets/css/img/DB_arc.jpg' | relative_url }}" alt="DB Architecture" style="width: 200%; height: auto;"/>
 <br/>
 体系<br/>
 <img src="{{ '/assets/css/img/Mern_arc.jpg' | relative_url }}" alt="System Architecture" style="width: 200%; height: auto;"/>
 <br/>
+
+データベース<br/>
+<img src="{{ '/assets/css/img/DB_arc.jpg' | relative_url }}" alt="DB Architecture" style="width: 200%; height: auto;"/>
+<br/>
+
 ### Spring ERPアプリ
 
 ### [https://itemhealtherm.tech/](https://itemhealtherm.tech/) <br/>
 <img src="{{ '/assets/css/img/ERM.jpg' | relative_url }}" alt="Item Health App Screenshot" style="max-width: 800 px; width: 100%; height: auto;"><br/>
 会社ERP管理アップ。<br/>
+
+
+
+体系<br/>
+<img src="{{ '/assets/css/img/ERM_Architecture_Diagram.jpg' | relative_url }}" alt="System Architecture" style="width: 200%; height: auto;"/>
+<br/>
+データベース<br/>
+<img src="{{ '/assets/css/img/ERM_ER_Chart.jpg' | relative_url }}" alt="DB Architecture" style="width: 200%; height: auto;"/>
+<br/>
+
 Spring boot, Thymeleaf, Postgres｡<br/>
 CRUD、SpringSecurity、CRON、自動メール、MyBatis、単体テスト、結合試験、CI/CD｡<br/>
 

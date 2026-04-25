@@ -23,10 +23,11 @@ Spring-securityやSpring-routingでバックエンドは完成作られました
 フロントエンドはThymeleaf,JS,Html,ＣＳＳのみに使って同じバックエンドとつながっているとアプリの体系完成になります。
 
 データベース体系
-url
+<img src="{{ '/assets/css/img/ERM_ER_Chart.jpg' | relative_url }}" alt="DB Architecture" style="width: 100%; height: auto;"/>
+<br/>
 
 システム体系
-url
+<img src="{{ '/assets/css/img/ERM_Architecture_Diagram.jpg' | relative_url }}" alt="DB Architecture" style="width: 100%; height: auto;"/>
 
 フロントエンドとバックエンドは同じポートで作って一つのアプリになります。わざわざ複雑フロントエンドを作るより簡単や作り立てやすいの
 フロントエンドを目指して作りました。
