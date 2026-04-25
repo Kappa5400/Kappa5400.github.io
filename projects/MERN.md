@@ -36,10 +36,10 @@ GitHubへプッシュするたびに、コードのテストと静的解析（Li
 
 
 データベース<br/>
-<img src="{{ '/assets/css/img/DB_arc.jpg' | relative_url }}" alt="DB Architecture" style="width: 100%; height: auto;"/>
+<img src="{{ '/assets/css/img/DB_arc.jpg' | relative_url }}" alt="DB Architecture" class="large-figure"/>
 <br/>
 体系<br/>
-<img src="{{ '/assets/css/img/Mern_arc.jpg' | relative_url }}" alt="System Architecture" style="width: 100%; height: auto;"/>
+<img src="{{ '/assets/css/img/Mern_arc.jpg' | relative_url }}" alt="System Architecture" class="large-figure"/>
 
 
 

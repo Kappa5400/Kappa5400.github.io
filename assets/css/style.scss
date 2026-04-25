@@ -7,9 +7,11 @@
   height: auto;
 }
 .large-figure {
-  width: 200%;            
+  width: 200%;
+  height: 200%;            
   margin-left: -10%;     
-  max-width: none;        
+  max-width: none;
+  max-height: none;        
   display: block;
   height: auto;
 }

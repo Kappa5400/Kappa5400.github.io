@@ -39,11 +39,11 @@ Spring-securityやSpring-routingでバックエンドは完成作られました
 - リレーショナルデータベースシステムでPK/FKジョインメソード管理
 
 データベース体系
-<img src="{{ '/assets/css/img/ERM_ER_Chart.jpg' | relative_url }}" alt="DB Architecture" style="width: 100%; height: auto;"/>
+<img src="{{ '/assets/css/img/ERM_ER_Chart.jpg' | relative_url }}" alt="DB Architecture" class="large-figure"/>
 <br/>
 
 システム体系
-<img src="{{ '/assets/css/img/ERM_Architecture_Diagram.jpg' | relative_url }}" alt="DB Architecture" style="width: 100%; height: auto;"/>
+<img src="{{ '/assets/css/img/ERM_Architecture_Diagram.jpg' | relative_url }}" alt="DB Architecture" class="large-figure"/>
 
 
 ---
