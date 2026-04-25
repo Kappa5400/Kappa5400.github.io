@@ -20,7 +20,7 @@
 
 ### [https://chesspuzzlekappa54.me/](https://chesspuzzlekappa54.me/) <br/>
 <img src="{{ '/assets/css/img/Chess.jpg' | relative_url }}" alt="Chess App Screenshot" style="max-width: 800px; width: 100%; height: auto;"><br/>
-ユーザーはチェスパズルを遊べて作れるアプリ。<br/>
+ユーザーはチェスパズルを遊べると作れるアプリ。<br/>
 MongoDB, Express, React, Node｡<br/>
 CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、CI/CD｡<br/>
 
@@ -37,7 +37,7 @@ CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、C
 
 ### [https://itemhealtherm.tech/](https://itemhealtherm.tech/) <br/>
 <img src="{{ '/assets/css/img/ERM.jpg' | relative_url }}" alt="Item Health App Screenshot" style="max-width: 800 px; width: 100%; height: auto;"><br/>
-会社ERM管理アップ。<br/>
+従業員のアイテムを管理する会社ERMアップ。<br/>
 
 
 

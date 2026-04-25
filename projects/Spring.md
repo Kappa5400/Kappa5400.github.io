@@ -21,6 +21,7 @@ permalink: /projects/Spring/
 営業向けのERMアプリです。正社員が所有するPCや備品や車が更新・保守は必要になれば上司に自動メールを打つアプリになります。
 以下はウェブサイトリンクになります。Digitaloceanのサーバで稼働しました。
 
+[https://itemhealtherm.tech/](https://itemhealtherm.tech/)
 
 このプロジェクトの目的はSpring Bootに慣れることや営業使いそうなツールを作ることでした。
 このアプリは自動Schedulerで毎日自動スクリプト動きます。もしあるアイテムは更新や保守を必要になれば上司に自動メールを送ります。
