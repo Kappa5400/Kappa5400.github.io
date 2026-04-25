@@ -31,7 +31,7 @@ GitHubへプッシュするたびに、コードのテストと静的解析（Li
 - ランキング表示
 - ユーザー独自のパズル作成・閲覧・削除
 
-このアプリは、私のソフトウェアエンジニアとしてのスキルを証明するために開発しました。詳細は以下の通りです。
+
 
 データベース<br/>
 <img src="{{ '/assets/css/img/DB_arc.jpg' | relative_url }}" alt="DB Architecture" style="width: 100%; height: auto;"/>
