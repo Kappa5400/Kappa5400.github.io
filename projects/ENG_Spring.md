@@ -26,7 +26,9 @@ Database Diagram
 <br/>
 
 System Diagram
-<img src="{{ '/assets/css/img/ERM_Architecture_Diagram.jpg' | relative_url }}" alt="DB Architecture" class="large-figure"/>
+<img src="{{ '/assets/css/img/ERM_Architecture_Diagram.jpg' | relative_url }}" 
+alt="DB Architecture" 
+class="large-figure"/>
 
 Project Walkthrough System Architecture
 The webapp is built in one monolith architecture as the frontend uses the lightweight Thymeleaf framework, some JS scripting, and html and css only. The main purpose for this app was for me to try spring-boot dev for backend usage so a basic frontend was fine.
