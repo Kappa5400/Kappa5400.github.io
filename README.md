@@ -1,7 +1,7 @@
 <div id="main-content"></div>
 # 初めまして,
 
-開発経験2年、業務経験5年を持つCS大学院生英語バイリンガル開発者です。<br/>
+開発経験２年・業務経験５年を持つCS修士の英語バイリンガル開発者です<br/>
 {: style="font-size: 1.2rem;"}
 7月から12月まで東京の語学学校に通います。学業と並行して開発のアルバイトをしたいと考えており、2027年1月からの正社員登用を見据えたポジションを探しています。私のプロフィールにご関心をお持ちいただけましたら、ぜひお気軽にご連絡ください。
 {: style="font-size: 1.3rem; color: #1e6e86;"}
@@ -33,11 +33,11 @@ CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、C
 <img src="{{ '/assets/css/img/DB_arc.jpg' | relative_url }}" alt="DB Architecture" style="width: 200%; height: auto;"/>
 <br/>
 
-### Spring ERPアプリ
+### Spring ERMアプリ
 
 ### [https://itemhealtherm.tech/](https://itemhealtherm.tech/) <br/>
 <img src="{{ '/assets/css/img/ERM.jpg' | relative_url }}" alt="Item Health App Screenshot" style="max-width: 800 px; width: 100%; height: auto;"><br/>
-会社ERP管理アップ。<br/>
+会社ERM管理アップ。<br/>
 
 
 
@@ -61,7 +61,7 @@ CS修士課程在学中Web開発者です。Spring BootやMERNスタック（CI/
 
 ## 自己紹介
 
-ゲーム会社、自動部品会社、そして物流会社の広い経験が持つバイリンガル。難しい問題を解決することが好きで麻雀、チェス、ボードゲーム、格闘技ゲー、などなどハマっています。挑戦はとても好きで、一ヶ月間北海道で自転車・キャンプツーリングにいったりしました。大学生の時体重130キロから85キロに減りました。
+ゲーム会社、自動部品会社、そして物流会社の広い経験を持つバイリンガル。難しい問題を解決することが好きで麻雀、チェス、ボードゲーム、格闘技ゲー、などなどハマっています。挑戦はとても好きで、一ヶ月間北海道で自転車・キャンプツーリングにいったりしました。大学生の時体重130キロから85キロに減りました。
 
 ## 連絡先
 
