@@ -2,39 +2,45 @@
 ---
 
 @import "{{ site.theme }}";
-.img {
-  max-width: 100%;
-  height: auto;
-}
 
-section {
-  overflow: visible !important;
-}
-.project-header {
-  color: #2c3e50;
-  border-bottom: 2px solid #eee;
-}
-.project-description {
-  font-size: 1.1rem;
-  line-height: 1.8;
-}
-
+/* --- 1. Global Styles --- */
 body {
-  font-family:
-    "Inter",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
   font-size: 16px;
   color: rgb(30, 45, 30);
   background-color: rgb(177, 224, 177);
 }
 
+.project-header {
+  color: #2c3e50;
+  border-bottom: 2px solid #eee;
+}
+
+.project-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* --- 2. Image Logic (Auto-Breakout) --- */
+/* This allows images to be wider than the text on desktop */
+img {
+  display: block;
+  max-width: none;
+  width: 115%;           /* Makes it wider than text */
+  margin-left: -7.5%;    /* Centers the extra width */
+  height: auto;
+  border-radius: 4px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Ensure parents don't clip the breakout images */
+.wrapper, section {
+  overflow: visible !important;
+}
+
+/* --- 3. Desktop Sidebar Styles --- */
 header {
   nav ul {
     list-style: none;
@@ -49,28 +55,63 @@ header {
         &:hover {
           text-decoration: underline;
         }
-        @media screen and (max-width: 640px) {
+      }
+    }
+  }
+}
+
+/* --- 4. Mobile Logic (Sidebar at Bottom) --- */
+@media screen and (max-width: 640px) {
   .wrapper {
     display: flex;
     flex-direction: column; /* Stack vertically */
   }
 
   section {
-    order: 1;               /* Content first */
+    order: 1;               /* Content first (top) */
     width: 100%;
     float: none;
+    padding: 0 10px;
   }
 
   header {
-    order: 2;               /* Sidebar second (at the bottom) */
+    order: 2;               /* Sidebar second (bottom) */
     width: 100%;
     float: none;
-    margin-top: 60px;       /* Pushes it down so it feels like a footer */
-    padding: 20px;
-    background: rgba(0,0,0,0.05); /* Optional: slight tint to distinguish it */
-  }
+    margin-top: 60px;       
+    padding: 20px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.03); /* Light tint for the "footer" feel */
+    
+    /* Make mobile links a horizontal list for easier tapping */
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      
+      li {
+        margin-bottom: 0;
       }
     }
   }
+
+  /* Reset images on mobile so they don't go off-screen */
+  img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
+
+/* --- 5. Anchor Logic --- */
+/* Since you're using #main-content in your links */
+#main-content {
+  display: block;
+  position: relative;
+  scroll-margin-top: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
