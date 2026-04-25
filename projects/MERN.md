@@ -4,7 +4,7 @@ title: MERN App
 permalink: /projects/MERN/
 ---
 
-<div id="content"></div>
+<div id="main-content"></div>
 
 # MERNスタック チェスアプリ 概要
 

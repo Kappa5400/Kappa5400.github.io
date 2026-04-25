@@ -1,4 +1,4 @@
-<div id="content"></div>
+<div id="main-content"></div>
 # 初めまして,
 
 開発経験2年、業務経験5年を持つCS大学院生英語バイリンガル開発者です。<br/>
