@@ -2,9 +2,19 @@
 ---
 
 @import "{{ site.theme }}";
-.wrapper {
-  width: 70%;          
-  margin: 0 auto;
+.img {
+  max-width: 100%;
+  height: auto;
+}
+.large-figure {
+  width: 150%;            
+  margin-left: -10%;     
+  max-width: none;        
+  display: block;
+  height: auto;
+}
+section {
+  overflow: visible !important;
 }
 .project-header {
   color: #2c3e50;
