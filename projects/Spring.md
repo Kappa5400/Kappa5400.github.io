@@ -52,34 +52,34 @@ Spring-securityやSpring-routingでバックエンドは完成作られました
 フロントエンドを目指して作りました。
 
 ### 使用パッケージ
-セキュリティ: bcrypt, Spring-security
-ユーティリティ: Cron, Spring-mail, Jackson, Mybatis, Flywaydb, mailhog
-テスト: Spring-test, junit
-フロントエンド: Spring-routing, Thymeleaf
+セキュリティ: bcrypt, Spring-security<br/>
+ユーティリティ: Cron, Spring-mail, Jackson, Mybatis, Flywaydb, mailhog<br/>
+テスト: Spring-test, junit<br/>
+フロントエンド: Spring-routing, Thymeleaf<br/>
 
 ### パッケージ解説
-- **セキュリティ:** 
+- **セキュリティ:** <br/>
 Spring-security: Spring　に一緒つけているセキュリティ機能。Security filter を構成することで認証処理に対応できます
 アプリでいくつな可能はBoss立場必須を作ってこの認証確認は必要になりました。
 
 bcrypt: パスワードを暗号化（ハッシュ化）するためのパッケージ。
 
-- **ユーティリティ:**
-Scheduler:毎日同じときに自動スクリプトを稼働して欲しかったのでSchedulerを使いました。
-Spring-mail:自動メールを送るためにこのSpring-mailを使いました。
-Jackson: JSONオブジェクトの対応するためのパッケージになります。
-Mybatis:SIER会社のスタックを合うためにMybatisを使おうとしました。生SQLクエリをマッピングしてServiceとつながります。
-Flywaydb:データベースの移行するためのパッケージです。
-Mailhog: メールを送るたびにMailhogでキャッチしてフロントエンドに表示できるように設定しました。
-Apache-poi: Excelファイルつくためにこのパッケージ使いました。
+- **ユーティリティ:**<br/>
+Scheduler:毎日同じときに自動スクリプトを稼働して欲しかったのでSchedulerを使いました。<br/>
+Spring-mail:自動メールを送るためにこのSpring-mailを使いました。<br/>
+Jackson: JSONオブジェクトの対応するためのパッケージになります。<br/>
+Mybatis:SIER会社のスタックを合うためにMybatisを使おうとしました。生SQLクエリをマッピングしてServiceとつながります。<br/>
+Flywaydb:データベースの移行するためのパッケージです。<br/>
+Mailhog: メールを送るたびにMailhogでキャッチしてフロントエンドに表示できるように設定しました。<br/>
+Apache-poi: Excelファイルつくためにこのパッケージ使いました。<br/>
 
-- **テスト:** 
-Spring-test: Springと付けているテストパッケージです。
-Junit:単位テストパッケージです。
-Mockito:　模擬パッケージです。
+- **テスト:** <br/>
+Spring-test: Springと付けているテストパッケージです。<br/>
+Junit:単位テストパッケージです。<br/>
+Mockito:　模擬パッケージです。<br/>
 
-- **フロントエンド:**
-Thymeleaf:　軽いフロントエンドフレームワーク。
+- **フロントエンド:**<br/>
+Thymeleaf:　軽いフロントエンドフレームワーク。<br/>
 
 ### ファイル構成
 
@@ -163,7 +163,7 @@ Spring-securityでSecurity filterの認証を立ちます。ログイン論理�
 
 
 #### フロントエンド詳細
-Thymeleaf、HTML,CSS,そしてJSでフロントエンドを作りました。フロントエンドは主にCRUDフォームで従業員とノートパソコン、
+Thymeleaf、HTML,Boostrap CSS,そしてJSでフロントエンドを作りました。フロントエンドは主にCRUDフォームで従業員とノートパソコン、
 Idcard,と車をいじられます。認証確認で上司立場のみのかたをCrudできると普通の従業員かたは見るだけ制度立ちました。
 上司のかたはもExcelエクスポートやHealth checkスクリプト開始できます。
 
