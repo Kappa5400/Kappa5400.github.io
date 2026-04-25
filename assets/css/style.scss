@@ -2,54 +2,92 @@
 ---
 
 @import "{{ site.theme }}";
-.img {
-  max-width: 100%;
-  height: auto;
-}
 
-section {
-  overflow: visible !important;
-}
-.project-header {
-  color: #2c3e50;
-  border-bottom: 2px solid #eee;
-}
-.project-description {
-  font-size: 1.1rem;
-  line-height: 1.8;
-}
-
+/* --- 1. Global Styles --- */
 body {
-  font-family:
-    "Inter",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
   font-size: 16px;
   color: rgb(30, 45, 30);
   background-color: rgb(177, 224, 177);
 }
 
-header {
-  nav ul {
-    list-style: none;
-    padding: 0;
+/* Ensure parents don't cut off wide images */
+.wrapper, section {
+  overflow: visible !important;
+}
 
+/* --- 2. Image Logic: Auto-Breakout --- */
+/* This makes images wider than the text without needing a class */
+img {
+  display: block;
+  max-width: none;        /* Overrides theme restriction */
+  width: 110%;            /* Pushes slightly outside text width */
+  margin-left: -5%;       /* Centers the overflow */
+  height: auto;
+  border-radius: 4px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* --- 3. Sticky Mobile Navigation --- */
+@media screen and (max-width: 640px) {
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgb(177, 224, 177); /* Matches your body bg */
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+
+  /* Hide subtitle/extra info to keep sticky bar thin */
+  header p, header .view {
+    display: none;
+  }
+
+  header h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  /* Horizontal Link List */
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0 0 0;
+    
     li {
-      margin-bottom: 0.8rem;
-
-      a {
-        text-decoration: none;
-        font-weight: 500;
-        &:hover {
-          text-decoration: underline;
-        }
-      }
+      margin-bottom: 0; /* Remove vertical spacing */
+      font-size: 0.85rem;
     }
   }
+
+  section {
+    width: 100%;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  /* Prevent images from causing horizontal scroll on mobile */
+  img {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* --- 4. Anchor Adjustment --- */
+/* Adjusts the jump so the sticky header doesn't cover the title */
+#main-content {
+  display: block;
+  position: relative;
+  scroll-margin-top: 100px; 
+}
+
+html {
+  scroll-behavior: smooth;
 }
