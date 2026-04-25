@@ -22,7 +22,7 @@
 <img src="{{ '/assets/css/img/Chess.jpg' | relative_url }}" alt="Chess App Screenshot" style="max-width: 800px; width: 100%; height: auto;"><br/>
 ユーザーはチェスパズルを遊べると作れるアプリ。<br/>
 MongoDB, Express, React, Node｡<br/>
-CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、CI/CD｡<br/>
+CRUD、CRON, API, JSONウェブトークン、単体テスト、結合テスト、CI/CD｡<br/>
 
 <br/>
 体系<br/>
@@ -49,7 +49,7 @@ CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、C
 <br/>
 
 Spring boot, MyBatis, Postgres｡<br/>
-CRUD,SpringSecurity,Scheduler、自動メール、Thymeleaf、単体テスト、結合試験、CI/CD｡<br/>
+CRUD,SpringSecurity,Scheduler、自動メール、Thymeleaf、単体テスト、結合テスト、CI/CD｡<br/>
 
 ## Github
 
@@ -61,7 +61,7 @@ CS修士課程在学中Web開発者です。Spring BootやMERNスタック（CI/
 
 ## 自己紹介
 
-ゲーム会社、自動部品会社、そして物流会社の広い経験を持つバイリンガル。難しい問題を解決することが好きで麻雀、チェス、ボードゲーム、格闘技ゲー、などなどハマっています。挑戦はとても好きで、一ヶ月間北海道で自転車・キャンプツーリングにいったりしました。大学生の時体重130キロから85キロに減りました。
+ゲーム会社、自動部品会社、そして物流会社での幅広い経験を持つバイリンガルです。難しい問題を解決することが好きで麻雀、チェス、ボードゲーム、格闘技ゲー、などなどハマっています。挑戦はとても好きで、一ヶ月間北海道で自転車・キャンプツーリングにいったりしました。大学生の時体重130キロから85キロに減りました。
 
 ## 連絡先
 
