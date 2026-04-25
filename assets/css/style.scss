@@ -2,7 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
-
+.wrapper {
+  width: 70%;          
+  margin: 0 auto;
+}
 .project-header {
   color: #2c3e50;
   border-bottom: 2px solid #eee;

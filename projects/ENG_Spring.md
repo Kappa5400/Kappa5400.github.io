@@ -4,6 +4,8 @@ title: MERN App
 permalink: /projects/ENG_Spring/
 ---
 
+<div id="content"></div>
+
 <h1>Spring Project</h1>
 
 Intro

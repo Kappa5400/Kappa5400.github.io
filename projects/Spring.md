@@ -4,6 +4,8 @@ title: Spring App
 permalink: /projects/Spring/
 ---
 
+<div id="content"></div>
+
 # Spring ERM アプリ 概要
 
 ##  リンク:
