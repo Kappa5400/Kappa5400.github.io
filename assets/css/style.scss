@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-/* --- 1. Global Styles --- */
+
 body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
@@ -22,25 +22,12 @@ body {
   line-height: 1.8;
 }
 
-/* --- 2. Image Logic (Auto-Breakout) --- */
-/* This allows images to be wider than the text on desktop */
-img {
-  display: block;
-  max-width: none;
-  width: 115%;           /* Makes it wider than text */
-  margin-left: -7.5%;    /* Centers the extra width */
-  height: auto;
-  border-radius: 4px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
 
-/* Ensure parents don't clip the breakout images */
 .wrapper, section {
   overflow: visible !important;
 }
 
-/* --- 3. Desktop Sidebar Styles --- */
+
 header {
   nav ul {
     list-style: none;
@@ -75,33 +62,17 @@ header {
   }
 
   header {
-    order: 2;               /* Sidebar second (bottom) */
+    order: 2;               
     width: 100%;
     float: none;
     margin-top: 60px;       
     padding: 20px 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    background: rgba(0, 0, 0, 0.03); /* Light tint for the "footer" feel */
     
-    /* Make mobile links a horizontal list for easier tapping */
-    nav ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-      
-      li {
-        margin-bottom: 0;
-      }
+    
+    
     }
   }
 
-  /* Reset images on mobile so they don't go off-screen */
-  img {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
 /* --- 5. Anchor Logic --- */
