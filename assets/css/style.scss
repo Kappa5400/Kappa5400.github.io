@@ -49,6 +49,26 @@ header {
         &:hover {
           text-decoration: underline;
         }
+        @media screen and (max-width: 640px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+  }
+
+  section {
+    order: 1;               /* Content first */
+    width: 100%;
+    float: none;
+  }
+
+  header {
+    order: 2;               /* Sidebar second (at the bottom) */
+    width: 100%;
+    float: none;
+    margin-top: 60px;       /* Pushes it down so it feels like a footer */
+    padding: 20px;
+    background: rgba(0,0,0,0.05); /* Optional: slight tint to distinguish it */
+  }
       }
     }
   }
