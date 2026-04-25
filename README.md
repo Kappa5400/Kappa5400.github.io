@@ -47,8 +47,8 @@ CRUD、CRON, API, JSONウェブトークン、単体テスト、結合試験、C
 <img src="{{ '/assets/css/img/ERM_ER_Chart.jpg' | relative_url }}" alt="DB Architecture" style="width: 200%; height: auto;"/>
 <br/>
 
-Spring boot, Thymeleaf, Postgres｡<br/>
-CRUD、SpringSecurity、CRON、自動メール、MyBatis、単体テスト、結合試験、CI/CD｡<br/>
+Spring boot, MyBatis, Postgres｡<br/>
+CRUD,SpringSecurity,Scheduler、自動メール、Thymeleaf、単体テスト、結合試験、CI/CD｡<br/>
 
 ## Github
 
