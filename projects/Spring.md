@@ -18,7 +18,7 @@ permalink: /projects/Spring/
 
 ## イントロダクション
 
-営業向けのERMアプリです。従業員が所有するPC・備品・車の更新や保守が必要になった際に上司に自動メールを打つアプリになります。
+営業向けのERMアプリです。従業員が所有するPC・備品・車の更新や保守が必要になった際に上司への自動メール送信システムです。
 以下はウェブサイトリンクになります。Digitaloceanのサーバで稼働しました。
 
 [https://itemhealtherm.tech/](https://itemhealtherm.tech/)
@@ -27,23 +27,23 @@ permalink: /projects/Spring/
 このアプリはSchedulerで毎日自動的にスクリプトが実行されます。アイテムの更新や保守が必要になった場合は上司に自動メールを送ります。
 メールはＭａｉｌｈｏｇでキャッチするので外部のメールアドレスに送りません。
 アプリはＣＩ／ＣＤを導入しており従業員情報や保有アイテムの詳細をExcelでダウンロードする機能も備えています。
-単位テストや結合テスト、GithubActionsやDockerでCi/CDにDigitaloceanサーバで自動稼働を行っています。
+単体テストや結合テスト、GithubActionsやDockerでCi/CDにDigitaloceanサーバで自動稼働を行っています。
 データベースアクセスにはMyBatisを使用し、生SQLでメソッドを定義し、Serviceレイヤーに提供します。FlywaydbでDB移行を行います。
 Spring SecurityとSpring MVCでバックエンドを構築しました。
-フロントエンドはThymeleaf・JS・HTML・CSSで構築し、同一バックエンドと統合された一体型アプリです
+フロントエンドはThymeleaf・JS・HTML・CSSで構築し、一体型アプリです。
 
 **主な機能：**
 
 - 従業員が所有するアイテムの管理システム
 - 自動お知らせメール、Excelエクスポート、CRUD管理制度
-- 単位テスト、結合テスト、Docker,クラウドデプロイCI/CDパイプライン
+- 単体テスト、結合テスト、Docker,クラウドデプロイCI/CDパイプライン
 - リレーショナルDBによるPK/FKジョイン管理
 
-データベース体系
+データベースシステム構成
 <img src="{{ '/assets/css/img/ERM_ER_Chart.jpg' | relative_url }}" alt="DB Architecture" />
 <br/>
 
-システム体系
+システム構成
 <img src="{{ '/assets/css/img/ERM_Architecture_Diagram.jpg' | relative_url }}" alt="DB Architecture" />
 
 
@@ -88,7 +88,6 @@ Thymeleaf:　軽いフロントエンドフレームワーク。<br/>
 
 ````text
 |ERM-Employee-Item-Health-App/ 
-├──.devcontainer/ # Build settings for deployment. 
 ├──.github/workflows/ # Github actions. 
 ├──logs/ # Where logs end up. 
 ├──Dockerfile/ # Dockerfile build setup 
@@ -125,7 +124,7 @@ Thymeleaf:　軽いフロントエンドフレームワーク。<br/>
 #### モデル
 モデルはプライマリーキーと外部キーでジョインして検索できるように設計しました。Employeeプライマリーキー Employee＿ＩＤ でほかの
 モデル外部キーとして付けていると物、Ｂｏｓｓ、そしてＳｕｂｏｒｄｉｎａｔｅでジョインできます。
-Healthreportはアイテム情報を集約し、自動メール送信に使用するモデルです。ER表も上に見られます。
+Healthreportはアイテム情報を集約し、自動メール送信に使用するモデルです。ER図は上記を参照してください。
 
 #### Flywaydb
 データ移行するためFlywaydbを使いました。データベースのスキーマを作り情報一貫性や正常に起動させます。
@@ -148,7 +147,7 @@ Healthreportはアイテム情報を集約し、自動メール送信に使用�
 
 #### Ｅｘｃｅｌ
 従業員、上司、車、ＩＤＣａｒｄ、そしてノートパソコンの情報をExcelでエクスポートできます。
-Apachi-POI ライブラリを使ってこの機能を追加しました。
+Apache POI ライブラリを使ってこの機能を追加しました。
 
 #### メール
 HealthCheckスクリプトが更新・保守の必要なアイテムを検出した際に、上司へ自動メールを送る仕組みです。
@@ -171,7 +170,7 @@ Idcard,と車を管理できます。認証確認でBoss権限を持つユーザ
 
 #### テスト、CI/CD、デプロイ
 テスト
-テストは単位テストと結合テストを両方作りました。デプロイするたびにテストを行ってパスしなければデプロイしません。
+単体テストと結合テストを実装しました。デプロイするたびにテストを行ってパスしなければデプロイしません。
 すべてのAPIエンドポイントとService機能をパスすべきテストと落ちるべきテストを作りました。
 
 #### CI/CDとデプロイ

@@ -38,7 +38,7 @@ GitHubへプッシュするたびに、コードのテストと静的解析（Li
 データベース<br/>
 <img src="{{ '/assets/css/img/DB_arc.jpg' | relative_url }}" alt="DB Architecture" />
 <br/>
-体系<br/>
+システム構成<br/>
 <img src="{{ '/assets/css/img/Mern_arc.jpg' | relative_url }}" alt="System Architecture" />
 
 
