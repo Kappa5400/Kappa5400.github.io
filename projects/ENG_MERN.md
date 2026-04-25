@@ -26,11 +26,11 @@ For logged in users it supports puzzle creation, viewing, and deleation. You can
 
 Database Design<br/>
 <img src="{{ '/assets/css/img/DB_arc.jpg' | relative_url }}" alt="DB Architecture" style="width: 100%; height: auto;" 
-class="large-figure"/>
+/>
 <br/>
 System Design<br/>
 <img src="{{ '/assets/css/img/Mern_arc.jpg' | relative_url }}" alt="System Architecture" style="width: 100%; height: auto;"
-class="large-figure"/>
+/>
 
 ## Project Walkthrough System Architecture
 
