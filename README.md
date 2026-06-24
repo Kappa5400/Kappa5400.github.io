@@ -24,7 +24,7 @@
 <img src="{{ '/assets/css/img/ERM.jpg' | relative_url }}" alt="Item Health App Screenshot" style="max-width: 800 px; width: 100%; height: auto;"><br/>
 従業員のアイテムを管理する会社向けERMアプリ。<br/>
 <br/>
-https://youtu.be/KTH0CqV_pUw?si=vTVEQwL0XMd01whI
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KTH0CqV_pUw?si=z0Bf0klh2YWhCQ8N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
 Github: https://github.com/Kappa5400/ERM-Employee-Item-Health-App<br/>
 
