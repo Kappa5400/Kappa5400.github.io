@@ -38,9 +38,9 @@ CRUD、CRON, API, JSONウェブトークン、単体テスト、結合テスト�
 ### [https://itemhealtherm.tech/](https://itemhealtherm.tech/) <br/>
 <img src="{{ '/assets/css/img/ERM.jpg' | relative_url }}" alt="Item Health App Screenshot" style="max-width: 800 px; width: 100%; height: auto;"><br/>
 従業員のアイテムを管理する会社向けERMアプリ。<br/>
-
-
-
+<br/>
+https://youtu.be/KTH0CqV_pUw?si=vTVEQwL0XMd01whI
+<br/>
 システム構成<br/>
 <img src="{{ '/assets/css/img/ERM_Architecture_Diagram.jpg' | relative_url }}" alt="System Architecture" style="width: 200%; height: auto;"/>
 <br/>
