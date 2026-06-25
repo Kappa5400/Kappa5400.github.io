@@ -43,6 +43,9 @@ CRUD,SpringSecurity,Scheduler、自動メール、Thymeleaf、単体テスト、
 ### [https://chesspuzzlekappa54.me/](https://chesspuzzlekappa54.me/) <br/>
 <img src="{{ '/assets/css/img/Chess.jpg' | relative_url }}" alt="Chess App Screenshot" style="max-width: 800px; width: 100%; height: auto;"><br/>
 ユーザーがチェスパズルを遊んだり作ったりできるアプリ。<br/>
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C623IucTza4?si=xuJV-qQIsRvHfI-V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br/>
 MongoDB, Express, React, Node｡<br/>
 CRUD、CRON, API, JSONウェブトークン、単体テスト、結合テスト、CI/CD｡<br/>
 Github: https://github.com/Kappa5400/mern_chess<br/>
